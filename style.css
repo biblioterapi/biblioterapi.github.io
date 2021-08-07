@@ -56,6 +56,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 4rem;
+	overflow-x: hidden;
 }
 
 p {
@@ -151,6 +152,12 @@ a:visited {
 	margin: 11rem 0 4rem;
 	position: relative;
 }
+@media (max-width: 767px) {
+	.header {
+		font-size: 1.5rem;
+		margin: 3rem 0 2rem;
+	}
+}
 
 
 .frontpage-flower {
@@ -160,6 +167,11 @@ a:visited {
 }
 .frontpage-flower.mobile {
 	width: 70%;
+	position: inherit;
+	margin: -1.5rem auto 0;
+}
+.frontpage-flower-end.mobile {
+	width: 50%;
 	position: inherit;
 	margin: -1.5rem auto 0;
 }
