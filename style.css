@@ -78,20 +78,8 @@ nav {
 	align-items: center;
 }
 
-nav .logo {
-	position: absolute;
-	left: 3rem;
-}
-
-nav .logo img {
-	width: 4rem;
-}
-
 nav ul {
 	list-style: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 nav ul li {
