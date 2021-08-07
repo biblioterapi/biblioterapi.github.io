@@ -170,10 +170,16 @@ a:visited {
 	position: inherit;
 	margin: -1.5rem auto 0;
 }
-.frontpage-flower-end.mobile {
-	width: 50%;
-	position: inherit;
-	margin: -1.5rem auto 0;
+
+.order-now-button {
+	background-color: #d4b5f7;
+	display: inline-block;
+	padding: 1rem;
+	text-decoration: none;
+	border-radius: 2px;
+}
+.order-now-button:hover {
+	background-color: #b28fda;
 }
 
 .mobile {
