@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="menu">
+			<ul>
+				<li><a href="interaktiv-biblioterapi.html">Interaktiv biblioterapi</a></li>
+				<li><a href="litterar-salong.html">Litterär salong</a></li>
+				<li><a href="litterar-vagledning.html">Litterär vägledning</a></li>
+				<li><a href="om-oss.html">Om oss</a></li>
+				<li><a href="smakprov.html">Smakprov</a></li>
+				<li><a href="boka.html">Boka</a></li>
+			</ul>
+			<a href="https://www.instagram.com/hallminsidenmark/"><img src="instagram_icon.png"></a>
+
+		</nav>
+		<div class="menu-bar-mobile">
+			<a href="https://www.instagram.com/hallminsidenmark/"><img src="instagram_icon.png"></a>
+			<a class="hamburger-icon" href="#"><img src="menu.png"></a>
+			<a class="close-icon hide" href="#"><img src="close.png"></a>
+		</div>
+		<nav class="menu-mobile hide">
+			<ul>
+				<li><a href="interaktiv-biblioterapi.html">Interaktiv biblioterapi</a></li>
+				<div class="menu-mobile-line"></div>
+				<li><a href="litterar-salong.html">Litterär salong</a></li>
+				<div class="menu-mobile-line"></div>
+				<li><a href="litterar-vagledning.html">Litterär vägledning</a></li>
+				<div class="menu-mobile-line"></div>
+				<li><a href="om-oss.html">Om oss</a></li>
+				<div class="menu-mobile-line"></div>
+				<li><a href="smakprov.html">Smakprov</a></li>
+				<div class="menu-mobile-line"></div>
+				<li><a href="boka.html">Boka</a></li>
+			</ul>
+
+		</nav>
+		<div class="wrapper">
+			<h1 class="header">Boka</h1>
+			<p>Vad roligt att du vill lära känna oss, nu är vi nyfikna på dig! Vi vill gärna veta lite mer om dig och dina intressen, vad du tänker på och funderar över. Hur ser dina läsvanor ut just nu och hur har de sett ut tidigare? Har du några särskilda läsupplevelser du vill berätta om? Du fyller i formuläret här nedan, vi återkommer inom kort! Du förbinder dig förstås inte till någonting alls i det här skedet.</p>
+			<p class="booking-choices">Förberedande samtal inför Interaktiv biblioterapi 500 kr<br/>Förberedande samtal inför Litterär salong 500 kr<br/>Litterär vägledning 500 kr</p>
+			<form method="POST"
+			      action="https://api.slapform.com/8EbApGQhK">
+				<select name="bokning">
+					<option value="samtal-biblioterapi">Förberedande samtal inför Interaktiv biblioterapi</option>
+					<option value="samtal-salong">Förberedande samtal inför Litterär salong</option>
+					<option value="vagledning">Litterär vägledning</option>
+				</select><br/>
+				<input type="text" name="name" placeholder="Namn"><br/>
+				<input type="email" name="email" placeholder="Mejladdress"><br/>
+				<textarea name="message" placeholder="Meddelande"></textarea></br/>
+				<button class="order-now-button" type="submit">Boka</button>
+
+			</form>
+		</div>
+	</body>
+	<script src="main.js"></script>
+</html>
