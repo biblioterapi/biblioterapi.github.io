@@ -68,9 +68,14 @@ p {
 .wrapper {
 	width: 34rem;
 }
+@media (max-width: 767px) {
+	.wrapper {
+		width: 90%;
+	}
+}
 
 nav {
-	padding: 1.5rem 0;
+	padding: 1.5rem 1rem;
 	border-bottom: 1px solid #d8d8d8;
 	width: 100%;
 	display: flex;
@@ -111,4 +116,21 @@ nav img {
 	width: 28rem;
 	position: absolute;
 	margin: -12rem 0 0 -4rem;
+}
+.frontpage-flower.mobile {
+	width: 50%;
+	position: inherit;
+	margin: 0;
+}
+
+.mobile {
+	display: none;
+}
+@media (max-width: 767px) {
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
 }
