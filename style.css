@@ -118,9 +118,9 @@ nav img {
 	margin: -12rem 0 0 -4rem;
 }
 .frontpage-flower.mobile {
-	width: 50%;
+	width: 70%;
 	position: inherit;
-	margin: 0;
+	margin: -1.5rem auto 0;
 }
 
 .mobile {
