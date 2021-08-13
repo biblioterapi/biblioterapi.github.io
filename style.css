@@ -185,6 +185,7 @@ a:visited {
 }
 .order-now-button:hover {
 	background-color: #b28fda;
+	cursor: pointer;
 }
 
 .booking-choices {
@@ -218,6 +219,32 @@ form textarea {
 	width: 16rem;
 	position: absolute;
 	margin: -10rem 0 0 14rem;
+}
+
+.guidance-flower {
+	width: 16rem;
+	position: absolute;
+	margin: -5rem 0 0 8rem;
+}
+
+.about-flower {
+	width: 10rem;
+	position: absolute;
+	margin: -8rem 0 0 24rem;
+}
+
+.about-content-box {
+	display: flex;
+	margin-bottom: 3rem;
+}
+
+.about-fredrik,
+.about-nette {
+	width: 45%;
+}
+
+.about-content-box p {
+	margin: 0 0 1rem 1rem;
 }
 
 .order-flower {
