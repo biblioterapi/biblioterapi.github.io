@@ -76,7 +76,7 @@ a:visited {
 .wrapper {
 	width: 34rem;
 }
-@media (max-width: 767px) {
+@media (max-width: 790px) {
 	.wrapper {
 		width: 90%;
 	}
@@ -142,7 +142,7 @@ a:visited {
 	border-bottom: 1px solid #d8d8d8;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 790px) {
 	.menu {
 		display: none;
 	}
@@ -155,7 +155,7 @@ a:visited {
 	margin: 11rem 0 4rem;
 	position: relative;
 }
-@media (max-width: 767px) {
+@media (max-width: 790px) {
 	.header {
 		font-size: 1.5rem;
 		margin: 3rem 0 2rem;
@@ -204,10 +204,36 @@ form textarea {
 	height: 5rem;
 }
 
+
+
+
+
+.biblio-flower {
+	width: 20rem;
+	position: absolute;
+	margin: -10rem 0 0 10rem;
+}
+
+.saloon-flower {
+	width: 16rem;
+	position: absolute;
+	margin: -10rem 0 0 14rem;
+}
+
+.order-flower {
+	width: 19rem;
+	position: absolute;
+	margin: -4rem 0 0 4rem;
+}
+
+
+
+
+
 .mobile {
 	display: none;
 }
-@media (max-width: 767px) {
+@media (max-width: 790px) {
 	.mobile {
 		display: block;
 	}
