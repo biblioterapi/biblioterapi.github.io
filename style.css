@@ -247,6 +247,31 @@ form textarea {
 	margin: 0 0 1rem 1rem;
 }
 
+.sample-flower {
+	width: 14rem;
+	position: absolute;
+	margin: -6rem 0 0 19rem;
+}
+
+.sample-matrix {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sample-thumbnail {
+	display: block;
+	width: 25%;
+}
+@media (max-width: 850px) {
+	.sample-thumbnail {
+		width: 50%;
+	}
+}
+
+.sample-thumbnail-img {
+	width: 100%;
+}
+
 .order-flower {
 	width: 12rem;
 	position: absolute;
