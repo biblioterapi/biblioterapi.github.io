@@ -216,15 +216,15 @@ form textarea {
 }
 
 .saloon-flower {
-	width: 16rem;
+	width: 12rem;
 	position: absolute;
-	margin: -10rem 0 0 14rem;
+	margin: -9rem 0 0 16rem;
 }
 
 .guidance-flower {
-	width: 16rem;
+	width: 12rem;
 	position: absolute;
-	margin: -5rem 0 0 8rem;
+	margin: -5rem 0 0 11rem;
 }
 
 .about-flower {
@@ -248,9 +248,9 @@ form textarea {
 }
 
 .order-flower {
-	width: 19rem;
+	width: 12rem;
 	position: absolute;
-	margin: -4rem 0 0 4rem;
+	margin: -4rem 0 0 12rem;
 }
 
 
