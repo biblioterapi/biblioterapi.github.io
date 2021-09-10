@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-size: 15px;
 }
 ol, ul {
 	list-style: none;
@@ -205,6 +206,10 @@ form textarea {
 	height: 5rem;
 }
 
+form button {
+	font-family: 'Lora', serif;
+}
+
 
 
 
@@ -245,6 +250,16 @@ form textarea {
 
 .about-content-box p {
 	margin: 0 0 1rem 1rem;
+}
+@media (max-width: 850px) {
+	.about-content-box p {
+		margin: 1rem 2rem 0 0;
+	}
+	.about-fredrik,
+	.about-nette {
+		width: 80%;
+		margin-top: 3rem;
+	}
 }
 
 .sample-flower {
